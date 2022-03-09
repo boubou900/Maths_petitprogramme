@@ -22,6 +22,7 @@ def decomp(nb):
         else:
             i+=1
     return liste
-nbadecomp=input('quel nombre entier superieur ou egal a 2 voulez vous decomposer en produit de facteurs premiers?')
-print(decomp(int(nbadecomp)))
-
+#nbadecomp=input('quel nombre entier superieur ou egal a 2 voulez vous decomposer en produit de facteurs premiers?')
+#print(decomp(int(nbadecomp)))
+for i in range(2,100):
+    print(decomp(i))
